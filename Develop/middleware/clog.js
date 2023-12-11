@@ -1,3 +1,4 @@
+// When this middlware is used in an express application, it logs information about each incoming request. It is useful for debugging and understanding the flow of requests through my application. 
 const clog = (req, res, next) => {
     const fgCyan = '\x1b[36m';
     switch (req.method) {
@@ -17,3 +18,4 @@ const clog = (req, res, next) => {
   };
   
   exports.clog = clog;
+  // This line of code will export the middleware function as exports.clog 
