@@ -5,7 +5,7 @@ const fs = require('fs');
 // This line of code will is the module that provides utilities for working with the file and directory paths.
 const path = require('path');
 // This line imports a custom middleware function clog.
-const { clog } = require('/Develop/middleware/clog.js');
+const { clog } = require('./Develop/middleware/clog.js'); 
 
 const app = express();
 
@@ -13,19 +13,19 @@ const PORT = process.env.PORT || 3001;
 // This line of code uses the clog middleware for logging
 app.use(clog);
 // This section of code is my middleware for parsing JSON and urlencoded form data
-app.use(express.urlencoded({ extended: true}));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // This section of code will serve static files from the 'public' directory.
 app.use(express.static('public'));
 
-// This section of my code is my Routes 
-const apiRoutes = require('/Develop/routes/apiRoutes.js');
-const htmlRoutes = require('/Develop/routes/htmlRoutes.js');
+// This section of my code is my Routes
+const apiRoutes = require('./Develop/routes/apiRoutes'); 
+const htmlRoutes = require('./Develop/routes/htmlRoutes'); 
 
-app.use('/Develop/routes/apiRoutes.js, apiRoutes');
-app.use('/Develop/routes/htmlRoutes.js htmlRoutes');
+app.use('/api', apiRoutes);
+app.use('/', htmlRoutes);
 
 // This section of code will start the server
 app.listen(PORT, () => {
-    console.log(`SServer is running on http://localhost:${PORT}`)
+  console.log(`Server is running on http://localhost:${PORT}`);
 });
