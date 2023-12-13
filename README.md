@@ -13,7 +13,7 @@
 
 ## Description
 
-
+This project uses Node.js and Express.js to locally host a browser note taking application. This project can be used by anyone. To use this application the user simply has to apply a title to the note, add text, click save and you are finished. There is also a delete button to remove completed notes once you are done with the task. 
 
 ## Visuals
 
@@ -25,11 +25,13 @@
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
-
+[![Heroku](http://heroku-badges.herokuapp.com/?app=heroku-badges&root=products-e2e.html)]
 
 ## Installation
 
-Clone my Github repository and run the application within your CLI.
+1. Clone my repository 
+2. Use npm install to install all the dependencies. 
+3. 
 
 ## Usage
 
