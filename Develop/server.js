@@ -5,7 +5,7 @@ const fs = require('fs');
 // This line of code will is the module that provides utilities for working with the file and directory paths.
 const path = require('path');
 // This line imports a custom middleware function clog.
-const { clog } = require('./Develop/middleware/clog.js'); 
+const { clog } = require('./middleware/clog.js'); 
 
 const app = express();
 
@@ -19,8 +19,8 @@ app.use(express.json());
 app.use(express.static('public'));
 
 // This section of my code is my Routes
-const apiRoutes = require('./Develop/routes/apiRoutes'); 
-const htmlRoutes = require('./Develop/routes/htmlRoutes'); 
+const apiRoutes = require('./routes/apiRoutes'); 
+const htmlRoutes = require('./routes/htmlRoutes'); 
 
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
