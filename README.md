@@ -34,8 +34,7 @@ This project uses Node.js and Express.js to locally host a browser note taking a
 1. Clone my repository 
 2. Use npm install to install all the dependencies. 
 3. Use npm run dev to initiate the server in your terminal
-4. cd into the Develop folder 
-5. Run node server.js
+5. Run node server.js in the terminal
 6. Visit http://localhost:3001/ in your browser default provided port is 3001. 
 
 ## Usage
