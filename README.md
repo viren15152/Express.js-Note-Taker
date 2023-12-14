@@ -17,7 +17,7 @@ This project uses Node.js and Express.js to locally host a browser note taking a
 
 ## Visuals
 ![Note taker opening page](<Screenshot 2023-12-14 at 01.45.20-1.png>)
-![Note taker with added notes](<Screenshot 2023-12-14 at 01.48.13.png>)
+![Note taker with added notes](<Screenshot 2023-12-14 at 01.53.11.png>)
 
 ## Technologies Used
 
