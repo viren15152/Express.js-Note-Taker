@@ -3,7 +3,7 @@ const router = express.Router();
 const fs = require('fs');
 const path = require('path');
 
-const dbFilePath = path.join(__dirname, '../Develop/db/db.json');
+const dbFilePath = path.join(__dirname, '../db/db.json');
 
 // This section of my code will get api/notes and retrieve all the notes
 router.get('/notes', (req, res) => {
