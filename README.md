@@ -25,16 +25,19 @@ This project uses Node.js and Express.js to locally host a browser note taking a
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
-[![Heroku](http://heroku-badges.herokuapp.com/?app=heroku-badges&root=products-e2e.html)]
+![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
 
 ## Installation
 
 1. Clone my repository 
 2. Use npm install to install all the dependencies. 
-3. 
+3. Use npm run dev to initiate the server in your terminal
+4. cd into the Develop folder 
+5. Run node server.js
+6. Visit http://localhost:3001/ in your browser default provided port is 3001. 
 
 ## Usage
-
+This application is powered by express therefore for it to function correctly, there needs to be a server running in the background. To start the server, navigate to the directory of the application, install all dependencies, then type node server.js. A message will appear in the CLI "App listening at http://localhost3001". Once the server is running you can copy and paste that link directly in the browser. Once that is done the user can make use the application to add notes. 
 
 
 ## Contributing
